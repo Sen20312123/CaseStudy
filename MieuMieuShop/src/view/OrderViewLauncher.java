@@ -14,7 +14,7 @@ public class OrderViewLauncher {
        menuOrder();
        try {
            System.out.println("Chọn chức năng");
-           System.out.println("┌►");
+           System.out.println("┌► ");
            choose = Integer.parseInt(sc.nextLine());
            switch (choose){
                case 1:

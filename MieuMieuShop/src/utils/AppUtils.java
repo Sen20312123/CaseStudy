@@ -48,7 +48,7 @@ public class AppUtils {
         String result;
         while ((result = sc.nextLine()).isEmpty()){
             System.out.printf("%s Không được để trống \n" , filedName);
-            System.out.println("┌►");
+            System.out.println("┌► ");
         }
         return result;
     }

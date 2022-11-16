@@ -41,7 +41,7 @@ public class OrderView {
         Product product = productService.findById(ID);
         double price = product.getPrice();
         int oldQuantity = product.getQuantity();
-        System.out.println("Nhập số lượng muốn mua");
+        System.out.println("Nhập số lượng muốn mua: ");
         int quantity;
         do {
             quantity = AppUtils.retryParseInt();
@@ -240,7 +240,7 @@ public class OrderView {
         boolean is = true;
         do {
             System.out.println("Nhập 1 để trở lại ||  Nhập 0 để thoát chương trình");
-            System.out.print("⭆ ");
+            System.out.print("┌► ");
             String choice = sc.nextLine();
             switch (choice) {
                 case "1":
@@ -274,7 +274,7 @@ public class OrderView {
             boolean is = true;
             do {
                 System.out.println("Nhập 1 để trở lại ||  Nhập 0 để thoát chương trình");
-                System.out.print(" ┌►");
+                System.out.print("┌► ");
                 String choice = sc.nextLine();
                 switch (choice) {
                     case "1":

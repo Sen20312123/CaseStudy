@@ -20,7 +20,7 @@ public class UserViewLauncher {
             try {
                 do {
                     System.out.println("Chọn chức năng:");
-                    System.out.println("┌►");
+                    System.out.println("┌► ");
                     choose = Integer.parseInt(sc.nextLine());
                     if (choose > 6 || choose < 1)
                         System.out.println("Chọn chức năng không đúng!!!");
@@ -60,7 +60,7 @@ public class UserViewLauncher {
         System.out.println("\t│                【0】. Thoát chương trình                  │");
         System.out.println("\t└──────────────────────────────────────────────────────────┘");
         System.out.println("Chọn chức năng");
-        System.out.print("┌► CHỌN SỐ : ");
+        System.out.print("┌► ");
         int choose = Integer.parseInt(sc.nextLine());
         switch (choose){
             case 1 :

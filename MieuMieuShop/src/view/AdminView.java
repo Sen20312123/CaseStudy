@@ -22,10 +22,10 @@ public class AdminView {
         System.out.println("««««««««««««««««««««««««««« Đăng Nhập »»»»»»»»»»»»»»»»»»»»»»»»»»»»»»");
         do {
             System.out.println("Tên tài khoản: ");
-            System.out.print("┌►");
+            System.out.print("┌► ");
             String username = AppUtils.retryString("Username");
             System.out.println("Mật khẩu: ");
-            System.out.print("┌►");
+            System.out.print("┌► ");
             String password = AppUtils.retryString("Mật khẩu");
             User user = userService.adminLogin(username, password);
             if (user == null) {
@@ -47,7 +47,7 @@ public class AdminView {
         do {
             try {
                 System.out.println("Nhấn '1' để đăng nhập lại! || Nhấn '0' để thoát chương trình");
-                System.out.print("┌►");
+                System.out.print("┌► ");
                 String option = sc.nextLine().toLowerCase();
                 switch (option) {
                     case "1":

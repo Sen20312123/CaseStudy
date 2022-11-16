@@ -1,1 +1,1 @@
-1668476150,ThanhNhan,Nhan12344321@123,Hoàng Vi Thanh Nhàn,0385718238,thanhnhan123@gmail.com,Huế,ADMIN,2022-09-14T01:07:01.625Z,2022-09-19T02:17:47.824Z
+User{idUser=1668476150, userName='ThanhNhan', passWord='Nhan12344321', fullName='Hoang Thi Thanh Nhan', phone='0385718238', email='thanhnhan123@gmail.com', address='Huế', role=ADMIN, createAt=2022-11-15T01:38:35.070258400Z, updateAt=2022-11-16T08:09:06.856327800Z}
